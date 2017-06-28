@@ -14,7 +14,13 @@ paste it after aframe.js
 
 ```html
 <script src="https://rawgit.com/aframevr/aframe/master/dist/aframe-master.js"></script>
+<script src="https://rawgit.com/mapbox/earcut/master/src/earcut.js"></script>
+<script src="https://rawgit.com/7dir/aframe-triangulation-component/master/triangulateShape_earcut.js"></script>
+```
 
+or
+```html
+<script src="https://rawgit.com/aframevr/aframe/master/dist/aframe-master.js"></script>
 <script src="https://rawgit.com/mapbox/earcut/master/src/earcut.js"></script>
 <script>
   THREE.ShapeUtils.triangulateShape = function(contour, holes) {
@@ -54,4 +60,4 @@ paste it after aframe.js
 U can add: libtess, poly2tri, pnltri, polyk, pts
 PR welcome.
 
-7dir
+MIT
