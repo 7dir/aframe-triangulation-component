@@ -21,7 +21,7 @@ paste it after aframe.js
 or
 ```html
 <script src="https://rawgit.com/aframevr/aframe/master/dist/aframe-master.js"></script>
-<script src="https://rawgit.com/mapbox/earcut/master/src/earcut.js"></script>
+<script src="https://rawgit.com/mrdoob/three.js/master/examples/js/libs/earcut.js"></script>
 <script>
   THREE.ShapeUtils.triangulateShape = function(contour, holes) {
       function removeDupEndPts(points) {
